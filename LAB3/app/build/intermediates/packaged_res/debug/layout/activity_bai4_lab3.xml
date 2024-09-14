@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai4_lab3">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/icPerson"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="90dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/circular"
+        app:strokeWidth="1sp">
+
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="edward_larry"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@id/icPerson"
+        app:layout_constraintStart_toEndOf="@id/icPerson"
+        app:layout_constraintTop_toTopOf="@id/icPerson"
+        />
+    <TextView
+        android:id="@+id/tvJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senior Developer"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/icCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_create_24"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@+id/tvName"
+        app:layout_constraintTop_toTopOf="@+id/tvName"
+        app:layout_constraintBottom_toBottomOf="@id/tvJob"
+        app:strokeWidth="1sp">
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact me"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/icPerson"
+        android:textSize="25sp"
+        android:layout_marginTop="80dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvTitleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="  Name"
+        android:gravity="start"
+        android:drawableStart="@drawable/baseline_person_24"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/tvContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tvTitleName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:hint="Edward Larry"
+        android:gravity="end"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginTop="7sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleName"
+        app:layout_constraintStart_toStartOf="@id/tvTitleName"
+        app:layout_constraintEnd_toEndOf="@id/tvContactName"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvTitlePhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleName"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/tvTitleName"
+        android:hint="  Phone"
+        android:gravity="start"
+        android:drawableStart="@drawable/baseline_phone_24"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/tvContactPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tvTitlePhone"
+        app:layout_constraintStart_toStartOf="@id/tvTitleName"
+        app:layout_constraintEnd_toEndOf="@id/tvContactName"
+        android:hint="(+84) 0909999999"
+        android:gravity="end"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginTop="7sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleName"
+        app:layout_constraintStart_toStartOf="@id/tvTitleName"
+        app:layout_constraintEnd_toEndOf="@id/tvContactName"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginTop="7sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitlePhone"
+        app:layout_constraintStart_toStartOf="@id/tvTitlePhone"
+        app:layout_constraintEnd_toEndOf="@id/tvContactPhone"
+
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvTitleMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitlePhone"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/tvTitlePhone"
+        android:hint="  Mail"
+        android:gravity="start"
+        android:drawableStart="@drawable/baseline_mail_24"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/tvContactMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tvTitleMail"
+        app:layout_constraintStart_toStartOf="@id/tvTitlePhone"
+        app:layout_constraintEnd_toEndOf="@id/tvContactPhone"
+        android:hint="edward_lary@gmail.com"
+        android:gravity="end"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginTop="7sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleMail"
+        app:layout_constraintStart_toStartOf="@id/tvTitleMail"
+        app:layout_constraintEnd_toEndOf="@id/tvContactMail"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTitleAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleMail"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/tvTitleMail"
+        android:hint="  Address"
+        android:gravity="start"
+        android:drawableStart="@drawable/baseline_map_24"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/tvContactAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tvTitleAddress"
+        app:layout_constraintStart_toStartOf="@id/tvTitleMail"
+        app:layout_constraintEnd_toEndOf="@id/tvContactMail"
+        android:hint="3646 Geneva Street, United States"
+        android:gravity="end"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginTop="7sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleAddress"
+        app:layout_constraintStart_toStartOf="@id/tvTitleAddress"
+        app:layout_constraintEnd_toEndOf="@id/tvContactAddress"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTitleHomepage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTitleAddress"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@id/tvTitleAddress"
+        android:hint="  Homepage"
+        android:gravity="start"
+        android:drawableStart="@drawable/baseline_link_24"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/tvContactHomepage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tvTitleHomepage"
+        app:layout_constraintStart_toStartOf="@id/tvTitleMail"
+        app:layout_constraintEnd_toEndOf="@id/tvContactMail"
+        android:hint="https://edwardlarry.info"
+        android:gravity="end"
+        >
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

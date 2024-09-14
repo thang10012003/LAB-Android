@@ -1,0 +1,10 @@
+#Fri Oct 13 16:29:26 ICT 2023
+base.0=C\:\\Users\\APC\\Desktop\\HK1_nam3\\MobileApp\\ThucHanh\\LAB4\\app\\bai4_lab4\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\APC\\Desktop\\HK1_nam3\\MobileApp\\ThucHanh\\LAB4\\app\\bai4_lab4\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\APC\\Desktop\\HK1_nam3\\MobileApp\\ThucHanh\\LAB4\\app\\bai4_lab4\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=13/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

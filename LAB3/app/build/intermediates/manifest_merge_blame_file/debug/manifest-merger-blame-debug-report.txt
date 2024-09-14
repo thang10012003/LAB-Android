@@ -1,0 +1,120 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="vn.edu.tdtu.lab3"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\APC\.gradle\caches\transforms-3\0bb5616a7558933ce9ef66db5210a361\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="vn.edu.tdtu.lab3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\APC\.gradle\caches\transforms-3\0bb5616a7558933ce9ef66db5210a361\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\APC\.gradle\caches\transforms-3\0bb5616a7558933ce9ef66db5210a361\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="vn.edu.tdtu.lab3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\APC\.gradle\caches\transforms-3\0bb5616a7558933ce9ef66db5210a361\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\APC\.gradle\caches\transforms-3\0bb5616a7558933ce9ef66db5210a361\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:7:5-41:19
+20        android:allowBackup="true"
+20-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\APC\.gradle\caches\transforms-3\0bb5616a7558933ce9ef66db5210a361\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:10:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:11:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:12:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:13:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.LAB3" >
+31-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:15:9-42
+32        <activity
+32-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:17:9-19:40
+33            android:name="vn.edu.tdtu.lab3.bai4_lab3_edit"
+33-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:18:13-43
+34            android:exported="false" />
+34-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:19:13-37
+35        <activity
+35-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:20:9-22:40
+36            android:name="vn.edu.tdtu.lab3.bai2_lab3"
+36-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:21:13-38
+37            android:exported="false" />
+37-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:22:13-37
+38        <activity
+38-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:23:9-25:49
+39            android:name="vn.edu.tdtu.lab3.WebBrowser"
+39-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:24:13-39
+40            android:exported="false" />
+40-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:25:13-37
+41        <activity
+41-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:26:9-28:40
+42            android:name="vn.edu.tdtu.lab3.MainActivity"
+42-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:27:13-41
+43            android:exported="false" />
+43-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:28:13-37
+44        <activity
+44-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:29:9-31:40
+45            android:name="vn.edu.tdtu.lab3.DisplayMessageActivity"
+45-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:30:13-51
+46            android:exported="false" />
+46-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:31:13-37
+47        <activity
+47-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:32:9-40:20
+48            android:name="vn.edu.tdtu.lab3.bai4_lab3"
+48-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:33:13-38
+49            android:exported="true" >
+49-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:34:13-36
+50            <intent-filter>
+50-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:35:13-39:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:36:17-69
+51-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:36:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:38:17-77
+53-->C:\Users\APC\Desktop\HK1_nam3\MobileApp\ThucHanh\LAB3\app\src\main\AndroidManifest.xml:38:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\APC\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\APC\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+59            android:authorities="vn.edu.tdtu.lab3.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\APC\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\APC\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\APC\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\APC\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\APC\.gradle\caches\transforms-3\316a02c860c73ab94686517a17339332\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\APC\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\APC\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\APC\.gradle\caches\transforms-3\b53648139df62eed3ac1693b02c07adb\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>

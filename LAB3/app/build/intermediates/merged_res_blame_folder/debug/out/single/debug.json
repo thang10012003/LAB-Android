@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\layout_activity_display_message.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\layout\\activity_display_message.xml"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_photo_camera_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_photo_camera_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_save_alt_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_save_alt_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\layout_activity_bai4_lab3.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\layout\\activity_bai4_lab3.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\layout_activity_web_browser.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\layout\\activity_web_browser.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\layout_activity_bai2_lab3.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\layout\\activity_bai2_lab3.xml"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_phone_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/layout_activity_bai4_lab3.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/layout/activity_bai4_lab3.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\drawable_avatar.png.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\drawable\\avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_create_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_create_24.xml"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_mail_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_mail_24.xml"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_work_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_work_24.xml"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_map_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_map_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/layout_activity_bai4_lab3_edit.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/layout/activity_bai4_lab3_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\drawable_shape.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\drawable\\shape.xml"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_link_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_link_24.xml"
+    },
+    {
+        "merged": "vn.edu.tdtu.lab3.app-merged_res-28:/drawable_baseline_person_24.xml.flat",
+        "source": "vn.edu.tdtu.lab3.app-main-30:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\APC\\.gradle\\daemon\\8.0\\vn.edu.tdtu.lab3.app-main-30:\\xml\\backup_rules.xml"
+    }
+]

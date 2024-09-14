@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="grey">#bababa</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">LAB3</string>
+    <style name="Base.Theme.LAB3" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.LAB3" parent="Base.Theme.LAB3"/>
+    <style name="circular">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
