@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai3">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMOVE SELECTED"
+        android:id="@+id/bSelected"
+        android:layout_below="@+id/recyclerview"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMOVE ALL"
+        android:id="@+id/bAll"
+        android:layout_below="@+id/recyclerview"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/grey"
+        android:textColor="@color/black"
+        android:layout_marginRight="10dp"/>
+
+
+
+</RelativeLayout>
