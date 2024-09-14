@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai5"
+    android:padding="10dp"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview"
+        android:layout_above="@+id/tvTotal"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD 5 MORE USERS"
+        android:backgroundTint="@color/blue"
+        android:textColor="#FFFF"
+        android:id="@+id/bAdd"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMOVE LAST 5 USERS"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFF"
+        android:id="@+id/bRemove"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bAdd"
+        android:id="@+id/tvTotal"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>
