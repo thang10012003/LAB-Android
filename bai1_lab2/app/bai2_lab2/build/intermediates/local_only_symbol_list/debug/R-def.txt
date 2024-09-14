@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color green
+color grey
+color white
+drawable baseline_group_add_24
+drawable baseline_place_24
+drawable baseline_star_24
+drawable baseline_star_half_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable img
+id btn_Follow
+id btn_UnFollow
+id imageView
+id txt_followers
+id txt_following
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Bai1_lab2
+style Button
+style RatingBar
+style Theme.Bai1_lab2
+style circular

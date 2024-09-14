@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai4_lab3_edit">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/icPerson"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/circular"
+        app:strokeWidth="1sp">
+    </com.google.android.material.imageview.ShapeableImageView>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/icImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_photo_camera_24"
+        app:layout_constraintBottom_toBottomOf="@id/icPerson"
+        app:layout_constraintEnd_toEndOf="@id/icPerson"
+        app:layout_constraintStart_toStartOf="@id/icPerson"
+        android:layout_marginStart="80dp"
+        android:theme="@style/circular"
+        app:strokeWidth="1sp">
+    </com.google.android.material.imageview.ShapeableImageView>
+    <TextView
+        android:id="@+id/tvName"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="edward_larry"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/icPerson"
+        />
+
+    <EditText
+        android:id="@+id/etJob"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="30dp"
+        android:inputType="text"
+
+        android:drawableStart="@drawable/baseline_work_24"
+        android:text="\tSenior Developer"
+        />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etJob"
+        app:layout_constraintEnd_toEndOf="@id/etJob"
+        app:layout_constraintStart_toStartOf="@id/etJob"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:text="\tEdward Larry"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etName"
+        app:layout_constraintEnd_toEndOf="@id/etName"
+        app:layout_constraintStart_toStartOf="@id/etName"
+        android:drawableStart="@drawable/baseline_phone_24"
+        android:text="\t(+84) 0909999999"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etPhone"
+        app:layout_constraintEnd_toEndOf="@id/etJob"
+        app:layout_constraintStart_toStartOf="@id/etJob"
+        android:drawableStart="@drawable/baseline_mail_24"
+        android:text="\tedward_larry@gmail.com"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etMail"
+        app:layout_constraintEnd_toEndOf="@id/etJob"
+        app:layout_constraintStart_toStartOf="@id/etJob"
+        android:inputType="text"
+        android:drawableStart="@drawable/baseline_map_24"
+        android:text="\t3634 Geneva Street, United States"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/etHomepage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etAddress"
+        app:layout_constraintEnd_toEndOf="@id/etJob"
+        app:layout_constraintStart_toStartOf="@id/etJob"
+        android:drawableStart="@drawable/baseline_link_24"
+        android:text="\thttps://edwardlarry.info"
+        android:inputType="text"
+
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/bSave"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etHomepage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:drawableLeft="@drawable/baseline_save_alt_24"
+        android:text="SAVE"
+        >
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
